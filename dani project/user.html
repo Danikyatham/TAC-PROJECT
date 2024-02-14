@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Train Ticket Availability Management System</title>
+</head>
+<body>
+    <!-- The video background -->
+    <video playsinline autoplay loop muted id="myVideo">
+        <source src="images/MHLS9217.MP4" type="video/mp4">
+        <!-- Add more source elements for other video formats (e.g., WebM, Ogg) -->
+    </video>
+
+    <div class="navbar">
+        <h1 class="sitenm">🔸🔸🚂TAC</h1>
+        <a href="admin.html" class="fa fa-wrench">Admin</a>
+        <a href="about.html" class="fa fa-info-circle">About</a>
+        <a href="homepage.html" class="fa fa-home">Home</a>
+        <!-- Add more list items for additional buttons -->
+    </div>
+
+    <h1 class="heading">CHECK AVAILABILITY - MAKE BOOKINGS</h1>
+    <div class="container">
+        <h1>CHECK AVAILABILITY</h1>
+        <form id="availabilityForm">
+            <label for="fromStation">From:</label>
+            <input type="text" id="fromStation" name="fromStation" required placeholder="Enter station name">
+            <label for="toStation">To:</label>
+            <input type="text" id="toStation" name="toStation" required placeholder="Enter station name">
+            <label for="journeyDate">Journey Date:</label>
+            <input type="date" id="journeyDate" name="journeyDate" required>
+            <button type="submit">Search Availability</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

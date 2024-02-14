@@ -1,0 +1,129 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("images/train designer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* Style the navigation bar */
+.navbar {
+    background-color:rgb(64, 229, 232);
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-top: 20px;
+    height:80px; 
+}
+/* Style the navigation buttons */
+.navbar h1 {
+    border: none;
+  
+}
+.navbar a {
+    float: right;
+    color:black;
+    text-align: center;
+    padding: 36px 20px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+  
+}
+
+/* Change button color on hover */
+.navbar a:hover {
+    background-color: rgb(191, 223, 237);
+}
+
+.sitenm{
+    float:left;
+    color:black;
+    
+}
+.fa-home{
+    float: right;
+    color:black;
+    padding: 36px 20px;
+}
+.fa-info-circle{
+    float: right;
+    color:black;
+    padding: 36px 20px;
+}
+.fa-search{
+    float: right;
+    color:black;
+    padding: 36px 20px;
+}
+
+.headingg {
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: rgb(234, 164, 176);
+    color: white; /* Set your desired text color */
+    margin-top: 40px;
+}
+
+.nope {
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(10px) ; /* Glassmorphism effect */
+    
+}
+.yup {
+   
+    width: 300px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(10px) ; /* Glassmorphism effect */
+    
+}
+
+button:hover {
+    background-color: #4dbdd4; /* Darker green on hover */
+  }
+button {
+    background-color: #db54bb;
+    color: #0e0d0d;
+    border:  1px solid rgb(7, 7, 7);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.booking-confirmed {
+    font-size: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: rgb(28, 183, 28);
+}
+    
+
