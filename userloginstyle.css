@@ -35,7 +35,7 @@ body {
     width: 300px;
     margin: 80px auto 0; /* Adjusted margin top */
     background: transparent;
-    backdrop-filter: blur(10px) ; /* Glassmorphism effect */
+    backdrop-filter: blur(50px) ; /* Glassmorphism effect */
 }
   .input-group {
     margin-bottom: 15px;
