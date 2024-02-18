@@ -1,3 +1,4 @@
+/* Default styles */
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -5,7 +6,8 @@ body {
     text-align: center;
     background-color: antiquewhite;
 }
-/* Style the navigation bar */
+
+/* Navigation bar styles */
 .navbar {
     background-color:rgb(31, 213, 216);
     overflow: hidden;
@@ -13,13 +15,17 @@ body {
     border-radius: 50px;
     margin-top: 10px;
     height:80px;
-    
 }
 
-/* Style the navigation buttons */
 .navbar h1 {
     border: none;
-  
+}
+
+/* Navigation button styles */
+.navbar a {
+    float: right;
+    color: black;
+    padding: 36px 20px;
 }
 
 /* Change button color on hover */
@@ -27,36 +33,33 @@ body {
     background-color: rgb(191, 223, 237);
 }
 
-.sitenm{
+.sitenm {
     float:left;
     color:black;
-    
-}
-.fa-home{
-    float: right;
-    color:black;
-    padding: 36px 20px;
-}
-.fa-search{
-    float: right;
-    color:black;
-    padding: 36px 20px;
-}
-.fa-wrench{
-    float: right;
-    color:black;
-    padding: 36px 20px;
 }
 
-.links {
-    margin-top: 20px;
-   
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+    
+    .navbar a {
+        float: none;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
 }
-.contact-content  {
+
+/* Contact content styles */
+.contact-content {
     display: block;
     margin-bottom: 10px;
     color: black;
 }
-.table{
+
+/* Table styles */
+.table {
     background-color: rgb(158, 152, 152);
 }
