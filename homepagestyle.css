@@ -7,7 +7,6 @@ body {
   background-image: url("images/train designer.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
   top: 0;
   left: 0;
   object-fit: cover;
